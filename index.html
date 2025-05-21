@@ -7,102 +7,43 @@
     <title>Practica Final</title>
     <link rel="stylesheet" href="estilos.css/reset.css">
     <link rel="stylesheet" href="estilos.css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
-    <!-- debería poner el primer div como section? -->
-    <header class="cabecera">
-        <div class="logo"></div>
-        <img src="Imagenes/Logo.png" alt="logo">
-        <div class="navegador">
-            <nav class="topnav">
-                <a href="#">home</a>
-                <a href="#">menu</a>
-                <a href="#">service</a>
-                <a href="#">contact us</a>
+   <header class="topbar">
+        <div class="logo">
+          <img src="Imagenes/Logo.png" alt="Logo">
+          </div>
+          <div class="navbar">
+            <nav class="nav">
+              <a href="#">home</a>
+              <a href="#">menu</a>
+              <a href="#">services</a>
+              <a href="#">contact us</a>
+          
             </nav>
-            <div class="contacto">
-                <input type="text" name="buscador" id="buscador"><label for="buscador">lupa</label>
-                <p>+001-123-2344</p>
+          </div>
+          <div class="header-right">
+            <div class="lupa">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">  
+                 <path
+                  d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+              </svg>
             </div>
-        </div>
-        </header>
-        <main>
-            <!-- esto es el hero, lo primero que sale -->
-            <div class="hero">
-                <img src="Imagenes/Rectangle 4.png" alt="hamburguesa">
-                <p>Get Delicious Food Instantly Delivery</p>
-                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aspernatur ipsa, rerum omnis quis nam
-                    commodi, deleniti iste quod laboriosam dolorum!</span>
-                <div>
-            <!-- los número debajo del hero -->
-                    <section class="contador">
-                        <div class="website">
-                            <h3>180k+</h3>
-                            <span>website visitor</span>
-                        </div>
-                        <div class="daily">
-                            <h3>1200+</h3>
-                            <span>Daily Orders</span>
-                        </div>
-                        <div class="delivery">
-                            <h3>120+</h3>
-                            <span>Delivery Boy</span>
-                        </div>
-                        <div class="years">
-                            <h3>12+</h3>
-                            <span>Years Experience</span>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <!-- esto es mas o menos el grid que hicimos en clase, revisar el código -->
-            <section class="about">
-                <div class="pizza">
-                    <div class="pizzatext">
-                    <h3>About Us</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae quisquam voluptatum quia nemo culpa sed, perferendis quas, tenetur saepe omnis libero ex alias magnam quam consequuntur veritatis nulla sequi?</p>
-            <button>Read More</button>
-                </div>
-                    <img src="Imagenes/Aboutsection-picture.png" alt="pizzaimg">
-                </div>
-           
-            <div class="kebab">
-                 <img src="Imagenes/Aboutsection-picture (1).png" alt="srkebabimg">
-                <div class="kebabtext">
-                   <h3>What Our Mission?</h3>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio soluta dicta possimus distinctio, saepe reprehenderit dignissimos, quia libero reiciendis eum natus eaque assumenda! Sapiente sint laborum explicabo illo a eius eum iure maxime ratione.</p>
-                   <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                     <button>Read More</button>
-                   </ul>
-                </div>
-            </div>
-             </section>
-            <!-- el apartado de más información -->
-            <div class="extra">
-                <div class="question">
-                <p>Do You Have a Question</p>
-                <input type="text" name="name" id="name" placeholder="Your Name">
-                <input type="email" name="address" id="address" placeholder="Email Address"><br />
-                <textarea name="message" id="message" rows="3" cols="40" placeholder="Message"></textarea>
-            <input type="submit" value="Message">
-            </div>
-            <img src="Imagenes/Rectangle 9.png" alt="chica ordenador">
-            </div>
-            <div>
-                <p>Subscribe for get update every new offers</p>
-                <!-- no tengo muy claro este div -->
-                <div class="Rectangle">
-                <input type="email" id="mail" name="mail" placeholder="Enter Your Mail Address">
-                <input type="submit" value="Subscribe">
-           </div> 
-        <img src="Imagenes/offer.png" alt="offer">
-    </div>
-        </main>
-        <footer></footer>
-        
-        </body>
-        
-        </html>
+            <div class="contact">
+            <div class="phone"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">  <path
+                  d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+              </svg></div>
+              <p>+001-123-2344</p>
+            </div></div>
+            </header>
+          
+          
+          
+            </body>
+          
+            </html>
