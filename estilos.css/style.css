@@ -1,45 +1,166 @@
-
-.topbar{
-    width: 100%;
-    height: 100px;
-    background-color: #f1b912;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    color:white;
-    font-weight: bold;
-    font-size: larger;
-    text-transform: uppercase ;    
-   
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
+.topbar {
+    width: 100%;
+    height: 210px;
+    background-color: #FAC100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    padding: 2px 2px;
+    width: 28%;
+}
 
 .navbar {
-    width: 30%;
+    width: 32%;
 }
 
 .nav {
     display: flex;
-   justify-content: space-between;
-    font-weight: bold;
-}
-
-.header-right{
-    width: 20%;
-    display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+}
+
+.header-right {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lupa {
+    width: 10%;
+    fill: #ffff;
 
 }
 
-.lupa{
-    width: 5%;
-    fill: white;
+.contact {
+    display: flex;
+    gap: 5%;
+}
+
+.contact {
+    width: 60%;
+    display: flex;
+    align-items: center;
 
 }
 
-.phone{
-    width: 2%;
-    fill: white;
+.phone {
+    width: 15%;
+    fill: #ffff;
 }
+
+/* falta añadir los efectos sobre los botones, se vuelve bastante loco si le cambio el tamño 0 resposive */
+
+/* ----------------------------------------------HERO-------------------------------------------- */
+
+.herosection {
+    margin-top: 8px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #ffff;
+}
+
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+
+}
+
+.hero {
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.hero p {
+    font-size: 700;
+  font-weight: bold;
+}
+.hero span {
+  display: block;
+  margin-top: 15px;
+  max-width: 400px;
+}
+
+.hamburguesa img{
+    width: 46%;
+
+    /* todo cambia aquí si lo toco */
+}
+/* SIN TERMNAR!!! la hamburguesa está bailonga */
+
+/* ------------------------------contador-------------------------------- */
+.contador {
+width: 100%;
+height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 80px 60px;
+  background-color: #ffff;
+  gap: 100px;
+}
+
+
+.contador h3 {
+  font-size: 6rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.contador span {
+  font-size: 3rem;
+}
+
+/* NO TOCAR EN PRINCIPIO YA ESTÁ */
+/* -----------------------ABOUT US----------------------------- */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 20px;
+}
+
+.pizza,
+.kebab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.about button {
+    background-color: #FAC100;
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: #ffff;
+
+
+}
+/* cambiar el texto, falta contenido, borde de los botones, añadir los puntos de los li */
